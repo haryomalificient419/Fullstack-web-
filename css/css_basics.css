@@ -1,9 +1,14 @@
-p {
-  color: green;
-  width: 500px;
-  border: 1px solid black;
+html{
+  font-size: 30px;
+  font-family: "Festive", Festive;
 }
 
-li, h1{
-  color: black;
+h1 {
+  text-align: center;
+}
+
+p, li{
+  font-size: 26px;
+  line-height: 2;
+  letter-spacing: 1px;
 }
