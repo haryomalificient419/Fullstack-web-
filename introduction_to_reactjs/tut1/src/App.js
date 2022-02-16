@@ -7,6 +7,13 @@ const Greetings = (props) =>{
     </div>
   )
 }
+const footer = ()=>{
+  return(
+    <div>
+      @2021
+    </div>
+  )
+}
 
 const App = () => {
   const now = new Date()
