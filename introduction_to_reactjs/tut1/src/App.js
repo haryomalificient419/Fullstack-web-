@@ -16,6 +16,7 @@ const footer = ()=>{
 }
 
 const App = () => {
+  /*
   const now = new Date()
   const a = 10
   const b = 20
@@ -37,6 +38,28 @@ const App = () => {
       </p>
       <Greetings name="Dola" age={a + b} />
       <Greetings name={name} age={age} />
+    </div>
+  )*/
+  const course = {
+    name: 'Half Stack application development'
+    parts: [
+    {
+      name: 'Fundamentals of react',
+      exercise: 10
+    },
+    {
+      name: 'Using props to pass data',
+      exercises: 7
+    },
+    {
+      name: 'State of a component',
+      exercises: 14
+    }
+  ]
+
+  return (
+    <div>
+
     </div>
   )
 }
