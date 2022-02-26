@@ -19,7 +19,9 @@ const App = () => {
   )
 
   return (
-    <div>{counter}</div>
+    <div>
+      <p> rendering...{counter} </p>
+    </div>
   )
 }
 export default App
