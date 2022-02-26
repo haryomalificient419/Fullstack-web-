@@ -41,7 +41,7 @@ const App = () => {
     </div>
   )*/
   const course = {
-    name: 'Half Stack application development'
+    name: 'Half Stack application development',
     parts: [
     {
       name: 'Fundamentals of react',
@@ -56,6 +56,7 @@ const App = () => {
       exercises: 14
     }
   ]
+}
 
   return (
     <div>
